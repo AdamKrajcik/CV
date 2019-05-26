@@ -1,0 +1,12 @@
+sudo: required
+dist: xenial
+
+before_install:
+  - sudo apt-get update
+  - apt-get install -y
+  - apt-get install -y --no-install-recommends texlive-full
+  - apt-get install -y --no-install-recommends texlive-moderncv
+  - apt-get install -y --no-install-recommends texlive-babel-slovak
+  - apt-get install -y make
+script:
+  - make cv
