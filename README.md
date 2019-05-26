@@ -12,6 +12,9 @@ To build:
 Other commands:
 
 ```make clean-all```
+
 ```make clean```
+
 ```make cv_en_skaddress.pdf```
+
 ```make cv_sk_skaddress.pdf```
